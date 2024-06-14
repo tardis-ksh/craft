@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "bin": {
-    "corgi": "bin/corgi.js"
+    "corgii": "bin/corgi.js"
   },
   "files": [
     "dist/**",
