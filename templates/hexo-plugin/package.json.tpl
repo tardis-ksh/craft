@@ -39,6 +39,7 @@
     "@types/node": "^20.14.2",
     "@typescript-eslint/parser": "^7.12.0",
     "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
     "globals": "^15.3.0",
     "husky": "^9.0.11",
