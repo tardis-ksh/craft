@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/tardis-ksh/corgi/compare/v0.2.0...v0.3.0) (2024-06-14)
+
+
+### Features
+
+* rename ([9540911](https://github.com/tardis-ksh/corgi/commit/9540911c57dfc4be1a9ea62d635f11bd1e25c80a))
+
+
+
 # [0.2.0](https://github.com/tardis-ksh/corgi/compare/v0.1.0...v0.2.0) (2024-06-14)
 
 
