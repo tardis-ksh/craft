@@ -17,8 +17,7 @@
     "package.json"
   ],
   "repository": {
-    "type": "git",
-    "url": "https://github.com/tardis-ksh/craft.git"
+    "type": "git"
   },
   "keywords": [
     "hexo",
