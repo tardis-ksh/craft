@@ -1,3 +1,13 @@
+# [0.5.0](https://github.com/tardis-ksh/corgi/compare/v0.4.0...v0.5.0) (2024-06-15)
+
+
+### Features
+
+* add git init ([ca2a985](https://github.com/tardis-ksh/corgi/commit/ca2a985c53f799abff53c021751df3cdc49e1292))
+* format tmp ([e58108a](https://github.com/tardis-ksh/corgi/commit/e58108a455554d11e6f601c63b6fd46fcf102fcc))
+
+
+
 # [0.4.0](https://github.com/tardis-ksh/corgi/compare/v0.3.0...v0.4.0) (2024-06-15)
 
 
