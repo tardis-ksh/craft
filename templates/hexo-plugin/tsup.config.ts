@@ -17,7 +17,7 @@ export default defineConfig([
       };
     },
 
-    entry: ['src/cli.ts'],
+    entry: ['src/index.ts'],
     outDir: 'dist',
   },
 ]);
