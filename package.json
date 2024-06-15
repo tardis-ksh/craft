@@ -29,7 +29,7 @@
   ],
   "author": "tardis <kshao666@gmail.com> (https://ksh7.com)",
   "license": "MIT",
-  "description": "",
+  "description": "easy start for a new project",
   "packageManager": "pnpm@9.3.0",
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",

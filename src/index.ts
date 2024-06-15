@@ -7,6 +7,7 @@ import {
 } from '@umijs/utils';
 import { join } from 'path';
 import { Templates } from '@/contants';
+import { detectMonorepoRoot, getGitInfo, initGit } from '@/utils/git';
 
 async function getPnpmVersion() {
   try {
@@ -38,6 +39,9 @@ export default async ({
   const [name] = args._;
   const target = name ? join(cwd, name) : cwd;
   const registry = 'https://registry.npmjs.org/';
+  const { username, email } = await getGitInfo();
+  const author = email && username ? `${username} <${email}>` : '';
+
   const { type, npmClient } = await prompts(
     [
       {
@@ -83,7 +87,8 @@ export default async ({
     {
       name: 'author',
       type: 'text',
-      message: `Input project author (Name <email@example.com>)`,
+      message: `Input project author (${author || 'Name <email@example.com>'})`,
+      initial: author,
     },
   ];
 
@@ -109,6 +114,18 @@ export default async ({
     questions,
   });
   await generator.run();
+
+  // detect monorepo
+  const monorepoRoot = await detectMonorepoRoot({ target });
+  const inMonorepo = !!monorepoRoot;
+  const projectRoot = inMonorepo ? monorepoRoot : target;
+
+  await initGit({
+    projectRoot,
+    target,
+    commitMessage: `feat(create-corgi): create ${generator.prompts.name}`,
+  });
+
   // install
   await installWithNpmClient({ npmClient, cwd: target });
 };
