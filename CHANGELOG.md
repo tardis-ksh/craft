@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/tardis-ksh/corgi/compare/v0.6.0...v0.7.0) (2024-06-15)
+
+
+### Features
+
+* change file ([b0595e0](https://github.com/tardis-ksh/corgi/commit/b0595e05363e1319be89920e597292a952f60632))
+
+
+
 # [0.6.0](https://github.com/tardis-ksh/corgi/compare/v0.5.0...v0.6.0) (2024-06-15)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * rename ([9540911](https://github.com/tardis-ksh/corgi/commit/9540911c57dfc4be1a9ea62d635f11bd1e25c80a))
-
-
-
-# [0.2.0](https://github.com/tardis-ksh/corgi/compare/v0.1.0...v0.2.0) (2024-06-14)
-
-
-### Features
-
-* rename ([a6114d8](https://github.com/tardis-ksh/corgi/commit/a6114d8172cdd4321f2e2f3ff4b73a4a685c31f7))
 
 
 
