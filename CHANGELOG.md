@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/tardis-ksh/corgi/compare/v0.3.0...v0.4.0) (2024-06-15)
+
+
+### Features
+
+* remove log file generate ([4bcf37c](https://github.com/tardis-ksh/corgi/commit/4bcf37c31e7508ed91fa7e69f9466201f2b65078))
+
+
+
 # [0.3.0](https://github.com/tardis-ksh/corgi/compare/v0.2.0...v0.3.0) (2024-06-14)
 
 
