@@ -24,8 +24,8 @@
     "plugin"
   ],
   "authors": [{{#author}}
-      "{{{ author }}}"
-    {{/author}}],
+    "{{{ author }}}"
+  {{/author}}],
   "license": "MIT",
   "description": "{{{ description }}}",
   "devDependencies": {
